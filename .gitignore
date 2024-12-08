@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables and settings
+.env
+*.env
+
+# Django specific
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# If using Django migrations
+**/migrations/**
+
+# macOS-specific files
+.DS_Store
+
+# Logs and temp files
+*.log
+*.pot
+*.py~
+*.swo
+*.swp
+*.tmp
+*.bak
+*.backup
+*.orig
+*.save
+*.cover
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Virtual environments
+venv/
+ENV/
+env/
+.Python
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.~*
+*.tmp
+
+# Cache files
+.cache/
