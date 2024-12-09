@@ -3,6 +3,8 @@ FROM python:3.10-slim
 
 # Set the working directory in the container
 WORKDIR /app
+# Add this to install Python in your Dockerfile
+RUN apt-get update && apt-get install -y python3 python3-pip
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \

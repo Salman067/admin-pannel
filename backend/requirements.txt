@@ -1,5 +1,6 @@
 Django>=3.0,<4.0
 psycopg2-binary
 djangorestframework
-PyJWT
+djangorestframework-simplejwt
 django-environ
+djangorestframework-simplejwt[blacklist]
